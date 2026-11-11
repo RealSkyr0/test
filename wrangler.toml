@@ -1,0 +1,11 @@
+name = "crash-play"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+GOOGLE_CLIENT_ID = "REPLACE_ME.apps.googleusercontent.com"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "crash-db"
+database_id = "REPLACE_WITH_ID_FROM_wrangler_d1_create"
